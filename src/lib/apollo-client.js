@@ -24,7 +24,7 @@ export function _createApolloClient() {
       uri: removeLastTrailingSlash(process.env.WORDPRESS_GRAPHQL_ENDPOINT),
       fetchOptions: {
         method: 'GET'
-      }
+      },
     }),
     cache: new InMemoryCache({
       typePolicies: {
