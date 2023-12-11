@@ -2,7 +2,6 @@ const indexSearch = require('./plugins/search-index');
 const feed = require('./plugins/feed');
 const sitemap = require('./plugins/sitemap');
 // const socialImages = require('./plugins/socialImages'); TODO: failing to run on Netlify
-// test
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
